@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if (v.getId() == R.id.btn_download){
             Intent downloadServiceIntent = new Intent(this, DownloadService.class);
-            startService(downloadServiceIntent);x
+            startService(downloadServiceIntent);
         }
 
     }
